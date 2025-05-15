@@ -88,3 +88,12 @@ scoreboard.finishMatch("Mexico", "Canada");
 Comparator<Match> alphabeticalByHomeTeam = Comparator.comparing(m -> m.getHomeTeam().getName());
 ScoreboardService customScoreboard = ScoreboardServiceFactory.create(alphabeticalByHomeTeam);
 ```
+
+### Complete Example
+A complete, runnable example demonstrating all features of the library can be found in the `src/main/java/com/sportradar/example/ScoreboardExample.java` file.
+
+You can run the example using Maven:
+
+```bash
+mvn exec:java -Dexec.mainClass="com.sportradar.example.ScoreboardExample"
+```
