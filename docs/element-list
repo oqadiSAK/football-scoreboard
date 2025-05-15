@@ -1,0 +1,5 @@
+com.sportradar.domain
+com.sportradar.exception
+com.sportradar.factory
+com.sportradar.repository
+com.sportradar.service
